@@ -58,9 +58,9 @@ function HomePage() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.05]">
-            Tech support,
+            Tech help
             <br />
-            <span className="text-blue-400">at your door.</span>
+            <span className="text-blue-400">made simple.</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
