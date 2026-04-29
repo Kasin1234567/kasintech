@@ -8,64 +8,80 @@ const services = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
       </svg>
     ),
-    title: 'Elder PC Help',
-    description: 'We specialize in patient, compassionate computer assistance for seniors. Whether it\'s learning a new device, video calling with family, or just navigating the internet safely — we explain everything in plain language, at your pace.',
-    details: ['One-on-one in-home sessions', 'Phone and tablet help', 'Video calling setup (Zoom, FaceTime)', 'Email and online banking guidance'],
+    title: 'Diagnostics & Support',
+    description: 'Not sure what\'s wrong? We figure it out, explain it in plain language, and let you decide what to do next — no pressure.',
+    details: [
+      { label: 'Diagnostics / Checkup', price: '$15' },
+      { label: 'General Troubleshooting', price: '$25/hr' },
+      { label: 'Remote Support', price: '$25/hr' },
+    ],
   },
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
       </svg>
     ),
-    title: 'Virus & Malware Removal',
-    description: 'A slow or infected computer is no match for our thorough removal process. We scan, clean, and harden your system against future threats — leaving your machine fast and your personal data safe.',
-    details: ['Full malware and spyware scan', 'Ransomware assessment and removal', 'Browser hijack cleanup', 'Security software installation'],
+    title: 'Device Setup',
+    description: 'New phone, tablet, or computer? We get it set up the right way and move your stuff over so nothing important gets left behind.',
+    details: [
+      { label: 'New Computer Setup', price: '$35' },
+      { label: 'Phone / Tablet Setup', price: '$25' },
+      { label: 'Data Transfer (Phone to Phone)', price: '$25' },
+      { label: 'Data Transfer (PC to PC)', price: '$30' },
+    ],
   },
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
       </svg>
     ),
-    title: 'PC Speed & Tune-Up',
-    description: 'Years of use leave computers cluttered with junk files, unnecessary startup programs, and outdated software. Our tune-up service gets your machine running like new again.',
-    details: ['Startup optimization', 'Disk cleanup and defragmentation', 'Driver and OS updates', 'Memory and storage diagnostics'],
+    title: 'Software Services',
+    description: 'Slow PC? Pop-ups? Forgotten password? We\'ll clean it up, tune it up, and get you back to a smooth running machine.',
+    details: [
+      { label: 'Virus / Malware Removal', price: '$40' },
+      { label: 'Windows Tune-Up', price: '$30' },
+      { label: 'OS Reinstall (Windows)', price: '$40' },
+      { label: 'Driver Updates', price: '$20' },
+      { label: 'Password / Account Help', price: '$25' },
+    ],
   },
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" />
       </svg>
     ),
-    title: 'Software Setup & Installation',
-    description: 'Need a new program installed, a printer set up, or help migrating to a new computer? We handle the technical side so you don\'t have to.',
-    details: ['Printer and peripheral setup', 'Application installation and configuration', 'New PC setup and data transfer', 'Operating system reinstall'],
+    title: 'Hardware Services',
+    description: 'Need more memory, a faster drive, or a dust-free machine? We handle the upgrades and the cleanup so your computer keeps up with you.',
+    details: [
+      { label: 'RAM Installation', price: '$20 + parts' },
+      { label: 'SSD Installation', price: '$25 + parts' },
+      { label: 'Hardware Upgrade Help', price: '$20' },
+      { label: 'PC Cleaning (Inside)', price: '$30' },
+    ],
   },
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z" />
       </svg>
     ),
-    title: 'Internet & Network Help',
-    description: 'Slow Wi-Fi, dropped connections, or a router that needs setting up — we diagnose and fix home network issues quickly and clearly.',
-    details: ['Wi-Fi troubleshooting and optimization', 'Router setup and configuration', 'Smart device connectivity', 'Network security review'],
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-      </svg>
-    ),
-    title: 'Data Backup & Recovery',
-    description: 'Protect your irreplaceable photos, documents, and files. We set up reliable backup solutions and recover data from failing or damaged drives.',
-    details: ['External drive backups', 'Cloud backup setup (Google Drive, OneDrive)', 'Deleted file recovery', 'Crashed drive data retrieval'],
+    title: 'Network & Home Tech',
+    description: 'Wi-Fi dropping out, printer won\'t connect, new streaming stick on the TV? We get all your home tech talking to each other.',
+    details: [
+      { label: 'Wi-Fi Setup / Troubleshooting', price: '$35' },
+      { label: 'Printer Setup', price: '$25' },
+      { label: 'Smart TV / Streaming Setup', price: '$25' },
+    ],
   },
 ]
+
+const homeVisitFee = { label: 'Home Visit Fee', price: '$15', note: 'Waived with service over $40' }
 
 function ServicesPage() {
   return (
@@ -84,7 +100,7 @@ function ServicesPage() {
       </section>
 
       {/* Services grid */}
-      <section className="py-16 px-6 pb-32">
+      <section className="py-16 px-6 pb-24">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
           {services.map((service) => (
             <div
@@ -96,16 +112,39 @@ function ServicesPage() {
               </div>
               <h2 className="text-2xl font-semibold mb-3">{service.title}</h2>
               <p className="text-gray-400 leading-relaxed mb-6">{service.description}</p>
-              <ul className="space-y-2">
+              <ul className="divide-y divide-white/5 border-y border-white/5">
                 {service.details.map((detail) => (
-                  <li key={detail} className="flex items-center gap-3 text-sm text-gray-400">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                    {detail}
+                  <li key={detail.label} className="flex items-center justify-between py-2.5 text-sm gap-4">
+                    <span className="text-gray-300">{detail.label}</span>
+                    <span className="text-blue-400 font-medium tabular-nums whitespace-nowrap">{detail.price}</span>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
+        </div>
+
+        {/* Home visit fee + pricing notes */}
+        <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-2 gap-6">
+          <div className="rounded-2xl bg-blue-600/10 border border-blue-500/30 p-8 flex items-center justify-between gap-4">
+            <div>
+              <div className="text-blue-400 text-sm font-semibold uppercase tracking-wider mb-1">{homeVisitFee.label}</div>
+              <div className="text-gray-400 text-sm">{homeVisitFee.note}</div>
+            </div>
+            <div className="text-3xl font-bold text-blue-400 tabular-nums">{homeVisitFee.price}</div>
+          </div>
+          <div className="rounded-2xl bg-white/5 border border-white/10 p-8">
+            <p className="text-gray-300 text-sm leading-relaxed mb-2">
+              <span className="text-blue-400 font-semibold">Affordable pricing for everyday tech problems.</span> No surprises — just honest, reliable service.
+            </p>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              All prices are starting rates. Final cost may vary depending on the issue. You'll always know the price before work begins.
+            </p>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto mt-10 text-center text-blue-400 text-sm font-medium">
+          Thank you for supporting local!
         </div>
       </section>
 
